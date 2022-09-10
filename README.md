@@ -1,3 +1,2 @@
 # Frontend_website created by Misha Kolomiets
-#test
-#Hello world!
+This is Frontend project by Misha Kolomiets and Bogdan Korsun
