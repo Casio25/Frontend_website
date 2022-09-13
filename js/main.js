@@ -1,1 +1,4 @@
-alert("Виконали студенти групи ІО-06, Коломієць Михайло та Богдан Корсун");
+autoBrands=['BMW', 'Ferrari', "Porshe"];
+for(let brands in autoBrands){
+    console.log(`${brands} => ${autoBrands[brands]}`)
+}
