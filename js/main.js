@@ -10,5 +10,5 @@ function showDislikePicture(){
     var dislikeImage = document.getElementById('roflan_dislike');
     var likeImage = document.getElementById('roflan_like');
     dislikeImage.style.display = 'block';
-    likeImage.style.display = 'none'
+    likeImage.style.display = 'none';
 }
