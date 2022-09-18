@@ -6,31 +6,32 @@
         <link rel="stylesheet" href="./style.css" />
     </head>
     <body>
+
+        <p id="demo"></p>
+
         <h1>Project, made by Misha Kolomiets and Bogdan Korsun</h1>
 
 
-        <div class="main-block">
-            <h2>Польский філософ, Ясос Біба</h2>
-            <img id="billy herington", src="./img/billy herington.jfif"/>
-            <div class="button-example">
-                <img id="roflan_like", src="./img/roflan_like.jpg" width = "300" style="display:none;" alt="Like"/>
-                <img id="roflan_dislike", src="./img/roflan_dislike.jpg" width="300" style="display:none;" alt="Dislike"/><br/>
-                <button onclick="showLikePicture()">Like</button>
-                <button onclick="showDislikePicture()">Dislike</button>
-            </div>
+        <div class="main_block">
             <h2>Італійський філософ, Матьє Бал</h2>
-            <img id="uncle bogdan" , src="/img/uncle bogdan.jfif" width="100" />
+            <img id="uncleBogdan" , src="/img/uncle bogdan.jfif" style="width:100%;max-width:100px">
+            <div id = "myModal" class="modal">
+                <span class="close">&times;</span>
+                <img class="modal-content" id="img01">
+                <div id="caption"></div>
+            </div>
             <div class="button-example">
-                <img id="roflan_like_2" , src="./img/roflan_like.jpg" width="300" style="display:none;" alt="Like" />
-                <img id="roflan_dislike_2" , src="./img/roflan_dislike.jpg" width="300" style="display:none;" alt="Dislike" /><br />
-                <button onclick="showLikePicture2()">Like</button>
-                <button onclick="showDislikePicture2()">Dislike</button>
+                <img id="roflan_like" , src="./img/roflan_like.jpg" width="100" style="display:none;" alt="Like" />
+                <img id="roflan_dislike" , src="./img/roflan_dislike.jpg" width="100" style="display:none;" alt="Dislike" /><br />
+                <button id="likeBtn" onclick="showLikePicture()">Like</button>
+                <button id="dislikeBtn" onclick="showDislikePicture()">Dislike</button>
             </div>
         </div>
 
 
 
 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
         <script src="./js/main.js"></script>
         <div id="root"></div>
 
