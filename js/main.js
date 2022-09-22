@@ -19,7 +19,7 @@ function showDislikePicture() {
 //ствроюємо модал
 var modal = document.getElementById('myModal');
 
-var img = document.getElementById('uncleBogdan');
+var img = document.getElementById('Sikorsky');
 var modalImg = document.getElementById('img01');
 var captionText = document.getElementById('caption');
 img.onclick = function(){

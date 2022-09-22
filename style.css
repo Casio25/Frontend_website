@@ -12,13 +12,13 @@ h2{
     margin-left: 20px;
 }
 
-#uncleBogdan {
+#Sikorsky {
     border-radius: 5px;
     cursor:pointer;
     transition:0.3s;
 }
 
-#uncleBogdan:hover {opacity: 0.7;}
+#Sikorsky:hover {opacity: 0.7;}
 
 .modal{
     display: none;
@@ -112,4 +112,5 @@ h2{
       border-width: .25em;
     border-style: inset;
     border-radius: 12px;
+    font-family: Tahoma, Verdana, sans-serif;
   }
