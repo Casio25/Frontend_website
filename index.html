@@ -1,30 +1,52 @@
 <!DOCTYPE html>
 <html lang="ru">
     <head>
-        <meta charset="UTF-8" />Project HTML
-        <title>First HTML Project</title>
+        <meta charset="UTF-8" />Project by Misha Kolomiets and Bogdan Korsun
+        <title>Project, made by Misha Kolomiets and Bogdan Korsun</title>
         <link rel="stylesheet" href="./style.css" />
     </head>
     <body>
 
         <p id="demo"></p>
 
-        <h1>Project, made by Misha Kolomiets and Bogdan Korsun</h1>
+        <h1>Ігор Сікорський</h1>
 
 
         <div class="main_block">
-            <h2>Італійський філософ, Матьє Бал</h2>
-            <img id="uncleBogdan" , src="/img/uncle bogdan.jfif" style="width:100%;max-width:100px">
+            <h2>Біографія</h2>
+            <img id="uncleBogdan" , src="/img/Sikorsky.jpg" style="width:100%;max-width:300px">
             <div id = "myModal" class="modal">
                 <span class="close">&times;</span>
                 <img class="modal-content" id="img01">
                 <div id="caption"></div>
             </div>
+            <div class = main_text>
+                <p>Ігор Іванович Сікорський (25.05.1889, Київ - 26.10.1972, Істон, Конектикут, США)- всесвітньо відомий авіаконструктор,
+                творець гелікоптерів, увійшов у світову історію авіації як автор перших у світовій практиці авіабудування багатомоторних
+                літаків та гелікоптерів.</p>
+                <p>У 1908 р. студент КПІ Ігор Сікорський розробив і побудував свій перший вертоліт, який, однак, не піднявся у повітря.
+                Тоді він почав будувати літаки. Спільно з товаришами по інституту Федором Билінкіним і Василем Йорданом побудував літаки
+                БіС-1 і БіС-2, а згодом вже самостійно – С-3, С-4, С-5, С-6. 12 грудня 1912 року літак С-6 побив світовий рекорд
+                швидкості – 111 км/год.</p>
+                <p>У 1912 р. І.І.Сікорський став головним конструктором авіаційного відділення Російсько-Балтійського вагонного заводу
+                (РБВЗ) у Санкт-Петербурзі. У короткий термін споруджуються багатомоторні аероплани “Гранд” і “Руський витязь”, а згодом
+                – чотиримоторний “Ілля Муромець”, який став найкращим літаком Першої світової війни.</p>
+                <p>Після Жовтневої революції 1917 р., у березні 1918 р., І.І.Сікорський виїхав за кордон – до Югославії, потім до Франції.
+                У 1923 р. створив у США компанію Sikorsky Aeroengineering Corporation. Упродовж 30-х років створює літаючі човни, які
+                могли перевозити пасажирів до міст, де не було аеропортів зі злітно-посадочними смугами. Справжнім шедевром стала
+                чотиримоторна амфібія S-40, яка перевозила 40 пасажирів на відстань до 800 км або 24 пасажири – на 1500 км.</p>
+                <p>У 30-х рр. І.І.Сікорський почав знову розробляти вертольоти. У вересні 1939 року він сам випробовує експериментальний
+                вертоліт VS-300 (S-46), а у 1942 році його гвинтокрил XR-4 (VS-316) було прийнято на озброєння армією США.</p>
+                <p>Після війни фірма Сікорського стала визнаним лідером не лише у США, а й у світі. Величезним успіхом компанії стала
+                розробка гелікоптера S-55, який у 1952 році вперше у світі здійснив трансатлантичний переліт. Останнім із вертольотів,
+                розроблених особисто Сікорським у 1954-1955 роках, був S-58. Його численні модифікації експлуатувалися майже в
+                п’ятдесяти країнах світу.</p>
+            </div>
             <div class="button-example">
                 <img id="roflan_like" , src="./img/roflan_like.jpg" width="100" style="display:none;" alt="Like" />
                 <img id="roflan_dislike" , src="./img/roflan_dislike.jpg" width="100" style="display:none;" alt="Dislike" /><br />
-                <button id="likeBtn" onclick="showLikePicture()">Like</button>
-                <button id="dislikeBtn" onclick="showDislikePicture()">Dislike</button>
+                <button class="button" id="likeBtn" onclick="showLikePicture()">Like</button>
+                <button class="button" id="dislikeBtn" onclick="showDislikePicture()">Dislike</button>
             </div>
         </div>
 
