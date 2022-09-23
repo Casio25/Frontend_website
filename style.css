@@ -2,25 +2,27 @@
     background-color: lightblue;
 }*/
 
-h1{
-    color:dimgray;
+h1 {
+    color: dimgray;
     margin-left: 20px;
 }
 
-h2{
+h2 {
     color: dimgray;
     margin-left: 20px;
 }
 
 #Sikorsky {
     border-radius: 5px;
-    cursor:pointer;
-    transition:0.3s;
+    cursor: pointer;
+    transition: 0.3s;
 }
 
-#Sikorsky:hover {opacity: 0.7;}
+#Sikorsky:hover {
+    opacity: 0.7;
+}
 
-.modal{
+.modal {
     display: none;
     position: fixed;
     z-index: 1;
@@ -52,14 +54,20 @@ h2{
     height: 150px;
 }
 
-.modal-content, #caption {
+.modal-content,
+#caption {
     animation-name: zoom;
     animation-duration: 0.5s;
 }
 
 @keyframes zoom {
-    from {transform: scale(0)}
-    to {transform: scale(1)}
+    from {
+        transform: scale(0)
+    }
+
+    to {
+        transform: scale(1)
+    }
 }
 
 .close {
@@ -73,14 +81,14 @@ h2{
 }
 
 .close:hover,
-.close:focus{
+.close:focus {
     color: rgb(203, 63, 63);
     text-decoration: none;
-    cursor:pointer;
+    cursor: pointer;
 }
 
-@media only screen and (max-width: 700px){
-    .modal-content{
+@media only screen and (max-width: 700px) {
+    .modal-content {
         width: 100%;
     }
 }
@@ -108,9 +116,9 @@ h2{
 }
 
 .main_text {
-      border-color: #a0a0a0;
-      border-width: .25em;
+    border-color: #a0a0a0;
+    border-width: .25em;
     border-style: inset;
     border-radius: 12px;
     font-family: Tahoma, Verdana, sans-serif;
-  }
+}
